@@ -14,7 +14,7 @@ header {
     background-color: #2a607c;
     color: #ffffff;
 }
-
+/* sets css for everything under the header element */
 header h1 {
     display: inline-block;
     font-size: 48px;
@@ -52,7 +52,7 @@ a {
 p {
     font-size: 16px;
 }
-
+/* sets the format for the large photo that separates the header from the section element this also has the source to the image*/
 figure {
     height: 800px;
     width: 100%;
@@ -60,6 +60,7 @@ figure {
     background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
+
 }
 
 section {
@@ -112,7 +113,7 @@ article h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
+/* sets the float of the images in the article element */
 .float-left {
     float: left;
     margin-right: 25px;
